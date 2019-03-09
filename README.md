@@ -2,14 +2,14 @@
 Version of the BIP39 Mnemonic Code Converter that works with Electrum Seeds
 
 ## **For "Legacy" seeds/wallets:**
-1. Enter your Electrum seed at the top in the "BIP39 mnemonic" section (WARNING: NO checksum calculation is performed! TRIPLE check you have entered your mnemonic correctly mmmKay?)
+1. Enter your Electrum seed at the top in the "BIP39 mnemonic" section **_(WARNING: NO checksum calculation is performed! TRIPLE check you have entered your mnemonic correctly mmmKay?)_**
 2. Click the "BIP32" tab in the "Derivation Path" section.
 3. Set "Client" to "Custom Derivation Path"
 4. Set the "BIP32 Derivation Path" to m/0 for "receive" addresses (addresses/keys displayed at bottom of page)
 5. Set the "BIP32 Derivation Path" to m/1 for "change" addresses (addresses/keys displayed at bottom of page)
 
 ## **For "SegWit" seeds/wallets ("bc1" aka bech32 addresses):**
-1. Enter your Electrum seed at the top in the "BIP39 mnemonic" section (WARNING: NO checksum calculation is performed! TRIPLE check you have entered your mnemonic correctly mmmKay?)
+1. Enter your Electrum seed at the top in the "BIP39 mnemonic" section **_(WARNING: NO checksum calculation is performed! TRIPLE check you have entered your mnemonic correctly mmmKay?)_**
 2. Click the "BIP141" tab in the "Derivation Path" section.
 3. Set the "Script Semantics" to P2WPKH
 4. Set the "BIP32 Derivation Path" to m/0'/0 for "receive" addresses (addresses/keys displayed at bottom of page)
